@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+}
+.tool-bar{
+    border: 3.5px solid rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+}
+.tool{
+    height: 80%;
+}
+#pencil,#eraser{
+    height: 100%;
+}
+.tool>img{
+    height: 100%;
+    }
+.stickypad{
+    height: 10rem;
+    width : 6rem;
+    background-color:transparent;
+    position: absolute;
+    left:40vw;
+    top:35vh;
+} 
+.close,.minimize{
+    height:80%;
+    width: 18%;
+    border-radius: 50%;
+    background-color:lightcoral;
+    margin-right:5px ;
+}
+.minimize{
+    background: lightgreen;
+}
+.navbar{
+    height:20%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.text-area{
+    height: 80%;
+    width: 100%;
+    /*background-color: brown;*/
+}
+textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: bisque;
+}

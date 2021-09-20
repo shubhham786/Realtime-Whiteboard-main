@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+     body {    
+      text-align:left;
+      margin: 0;
+      margin-top: 4px;
+      margin-left: 4px;
+      overflow: hidden;
+    }
+    #board {
+      touch-action: none;
+      border: 0.5px solid rgba(0,0,0,0.1);
+      box-shadow: 1px 1px 1px 0.5px rgba(0,0,0,0.1);
+      cursor: crosshair;
+    }
+</style>
+<body>
+    
+    <div class = "tool-bar">
+        <div class="tool">
+            <img src="./NewIcons/Black_Pencil.svg" alt="" id="pencil" class="tool-image">
+        </div>
+        <div class = "tool">
+            <img src="./NewIcons/Eraser.svg" alt="" id="eraser" class="tool-image">
+        </div>
+        <div class="tool">
+            <img src="./NewIcons/StickyNote.svg" alt="" id="sticky" class="tool-image">
+        </div>
+        <div class="tool">
+            <img src="./NewIcons/Undo.svg" alt="" id="undo" class="tool-image">
+        </div>
+        <div class="tool">
+            <img src="./NewIcons/Redo.svg" alt="" id="redo" class="tool-image">
+        </div>
+        <div class="tool">
+            <img src="./NewIcons/Download.svg" alt="" id="download" class="tool-image">
+        </div>
+        <div class="tool">
+            <img src="NewIcons/Photo.svg" alt="" id="upload" class="tool-image">
+        </div>
+        <input type="file" name="" id="acceptImg" style="display: none ;">
+        
+    </div>
+    <canvas id="board" style="border:solid black 1px; touch-action:none"></canvas>
+    <script src = "script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js" crossorigin></script>
+</body>
+</html>
